@@ -1,9 +1,8 @@
 #include "monty.h"
 #define _XOPEN_SOURCE 700
-#include <stdio.h>
-
+#define  _POSIX_C_SOURCE 200809L
 #define _GNU_SOURCE
-
+#include <stdio.h>
 #include <stdlib.h>
 
 
